@@ -1,1 +1,12 @@
-manual-changelog: changelog.txt
+package-as: AdiBags_Shadowlands_Enchanting
+
+ignore:
+    - README.md
+    - .github
+    - .packager
+    - .release
+
+required-dependencies:
+    AdiBags
+
+license-output: LICENSE

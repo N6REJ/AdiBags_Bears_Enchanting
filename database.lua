@@ -1,22 +1,32 @@
--- AdiBags_Shadowlands_Crafting - Enchanting Database
--- Created by N6REJ character is Bearesquishy - dalaran please credit whenever.
--- Source on GitHub: https://github.com/N6REJ/AdiBags_Shadowlands_Crafting
+-- AdiBags_Shadowlands Enchanting - Database
+-- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
+-- Source on GitHub: https://n6rej.github.io
 --
-local ADDON_NAME, ADDON_TABLE, addon = ...
+local addonName, addonTable, addon = ...
 
 -- Create addon table
-N = { }
-ADDON_TABLE.N = N
+local db = { }
 
--- Label to use
-N["FilterTitle"] = "Enchanting"
+db.name = "Shadowlands Enchanting"
+db.desc = "Enchanting reagents for shadowlands"
 
--- Database of items
-N["database"] = {
-	172230,	-- Soul Dust
-	172231,	-- Sacred Shard
-	172232,	-- Eternal Crystal
-	172439,	-- Enchanted Lightless Silk
-	183951,	-- Immortal Shard
-	38682,	-- Enchanting Vellum
+-- Filter info
+db.Filters = {
+	["Enchanting"] = {
+		uiName = "Shadowlands Enchanting",
+		uiDesc = "Enchanting reagents for Shadowlands",
+		title = "Enchanting",
+		items = {
+			-- ID,	--Item name
+			[172230] = true, 	-- Soul Dust
+			[172231] = true, 	-- Sacred Shard
+			[172232] = true, 	-- Eternal Crystal
+			[172439] = true, 	-- Enchanted Lightless Silk
+			[183951] = true, 	-- Immortal Shard
+			[38682] = true, 	-- Enchanting Vellum
+		},
+	},
 }
+
+-- now that db is populated lets pass it on.
+addonTable.db = db

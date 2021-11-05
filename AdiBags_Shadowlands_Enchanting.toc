@@ -1,10 +1,11 @@
-## Interface: 90100
-## Title: AdiBags - Shadowlands Crafting-Enchanting
-## Version: 1.2
+## Interface: 90105
+## Title: AdiBags-Shadowlands Enchanting
+## Version: @project-version@
 ## Author: Bearesquishy
+## X-License: MIT
+## X-Curse-Project-ID: 446515
 ## DefaultState: enabled
-## Dependancies: AdiBags
+## Dependencies: AdiBags
 
-Localization.lua
 database.lua
 core.lua
