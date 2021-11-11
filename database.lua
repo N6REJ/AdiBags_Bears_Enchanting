@@ -5,7 +5,7 @@
 local addonName, addonTable, addon = ...
 
 -- Create addon table
-local db = { }
+local db = {}
 
 db.name = "Shadowlands Enchanting"
 db.desc = "Enchanting reagents for shadowlands"
@@ -20,8 +20,8 @@ db.Filters = {
             -- ID,	--Item name
             [172230] = true, -- Soul Dust
             [172231] = true, -- Sacred Shard
-            [172232] = true, -- Eternal Crystal
-        },
+            [172232] = true -- Eternal Crystal
+        }
     },
     ["Cloth"] = {
         uiName = "Shadowlands Tailoring",
@@ -29,7 +29,15 @@ db.Filters = {
         title = "Cloth",
         items = {
             -- ID    = true,    --Item name
-            [172439] = true, -- Enchanted Lightless Silk
+            [172439] = true -- Enchanted Lightless Silk
+        }
+    },
+    ["Leather"] = {
+        uiName = "Shadowlands Leatherworking",
+        uiDesc = "Reagents for Leatherworking in Shadowlands",
+        title = "Leather",
+        items = {
+            [172438] = true -- Enchanted Heavy Callous Hide
         }
     },
     ["Vendor_Reagents"] = {
@@ -39,8 +47,7 @@ db.Filters = {
         items = {
             -- ID    = true,    --Item name
             [183951] = true, -- Immortal shards
-            [38682] = true, -- Enchanting Vellum
-
+            [38682] = true -- Enchanting Vellum
         }
     },
     ["Crafted_Reagents"] = {
@@ -54,9 +61,9 @@ db.Filters = {
             [173382] = true, -- Crafter's Mark II
             [173381] = true, -- Crafter's Mark I
             [183942] = true, -- Novice Mark II
-            [185960] = true, -- Vestige of Origins
+            [185960] = true -- Vestige of Origins
         }
-    },
+    }
 }
 
 -- now that db is populated lets pass it on.
