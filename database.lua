@@ -20,30 +20,16 @@ db.Filters = {
             -- ID,	--Item name
             [172230] = true, -- Soul Dust
             [172231] = true, -- Sacred Shard
-            [172232] = true -- Eternal Crystal
-        }
-    },
-    ["Cloth"] = {
-        uiName = "Shadowlands Tailoring",
-        uiDesc = "Reagents for tailoring in Shadowlands",
-        title = "Cloth",
-        items = {
-            -- ID    = true,    --Item name
-            [172439] = true -- Enchanted Lightless Silk
-        }
-    },
-    ["Leather"] = {
-        uiName = "Shadowlands Leatherworking",
-        uiDesc = "Reagents for Leatherworking in Shadowlands",
-        title = "Leather",
-        items = {
+            [172232] = true, -- Eternal Crystal
+            [172437] = true, -- Enchanted Elethium Bar
+            [172439] = true, -- Enchanted Lightless Silk
             [172438] = true -- Enchanted Heavy Callous Hide
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Vendor Reagents",
-        uiDesc = "Reagents from vendors used in Shadowlands",
-        title = "Vendor Reagents",
+        uiName = "Shadowlands Enchanting Reagents",
+        uiDesc = "Enchanting reagents from vendors used in Shadowlands",
+        title = "Enchanting Reagents",
         items = {
             -- ID    = true,    --Item name
             [183951] = true, -- Immortal shards
@@ -60,7 +46,7 @@ db.Filters = {
             [173383] = true, -- Crafter's Mark III
             [173382] = true, -- Crafter's Mark II
             [173381] = true, -- Crafter's Mark I
-            [183942] = true, -- Novice Mark II
+            [183942] = true, -- Novice Mark
             [185960] = true -- Vestige of Origins
         }
     }
