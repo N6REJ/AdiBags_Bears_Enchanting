@@ -47,7 +47,9 @@ db.Filters = {
             [173382] = true, -- Crafter's Mark II
             [173381] = true, -- Crafter's Mark I
             [183942] = true, -- Novice Mark
-            [185960] = true -- Vestige of Origins
+            [185960] = true, -- Vestige of Origins
+            [187825] = true, -- Cosmic Protoweave
+            [187823] = true -- Magically Regulated Automa Core
         }
     }
 }
