@@ -1,9 +1,10 @@
-## Interface: 90200
+## Interface: 90205
 ## Title: AdiBags-Shadowlands Enchanting
 ## Version: @project-version@
 ## Author: Bearesquishy
 ## X-License: MIT
 ## X-Curse-Project-ID: 446515
+## X-Wago-ID: Rn6VdEGd
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 
