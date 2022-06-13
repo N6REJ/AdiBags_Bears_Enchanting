@@ -11,6 +11,5 @@ sorts Enchanting reagents into their own category.
 [![curse](https://img.shields.io/badge/Curseforge_Project_ID:-545326-purple)](https://www.curseforge.com/wow/addons/adibags_shadowlands_Enchanting)
 [![requires](https://img.shields.io/badge/Requires-AdiBags-brown)](https://www.curseforge.com/wow/addons/adibags)
 
-![img.png](https://github.com/N6REJ/AdiBags_Shadowlands_Enchanting/blob/main/images/img.png)
-
-![img_1.png](https://github.com/N6REJ/AdiBags_Shadowlands_Enchanting/blob/main/images/img_1.png)
+![img](https://user-images.githubusercontent.com/1850089/173354329-1db659e2-2871-412e-8383-2339b3c60d81.png)
+![img_1](https://user-images.githubusercontent.com/1850089/173354345-f3ce742c-5271-4b6f-8206-69e54fe1dbc5.png)
