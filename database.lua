@@ -1,4 +1,4 @@
--- AdiBags_Shadowlands Enchanting - Database
+-- AdiBags_Bears Enchanting - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
@@ -7,14 +7,14 @@ local addonName, addonTable, addon = ...
 -- Create addon table
 local db = {}
 
-db.name = "Shadowlands Enchanting"
+db.name = "Bears Enchanting"
 db.desc = "Enchanting reagents for shadowlands"
 
 -- Filter info
 db.Filters = {
     ["Enchanting"] = {
-        uiName = "Shadowlands Enchanting",
-        uiDesc = "Enchanting reagents for Shadowlands",
+        uiName = "Bears Enchanting",
+        uiDesc = "Enchanting reagents for Bears",
         title = "Enchanting",
         items = {
             -- ID,	--Item name
@@ -27,8 +27,8 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Shadowlands Enchanting Reagents",
-        uiDesc = "Enchanting reagents from vendors used in Shadowlands",
+        uiName = "Bears Enchanting Reagents",
+        uiDesc = "Enchanting reagents from vendors used in Bears",
         title = "Enchanting Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -37,8 +37,8 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = "Shadowlands crafted reagents",
-        uiDesc = "Reagents made by crafting in Shadowlands",
+        uiName = "Bears crafted reagents",
+        uiDesc = "Reagents made by crafting in Bears",
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
