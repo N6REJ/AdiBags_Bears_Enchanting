@@ -2,19 +2,23 @@
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 --
-local addonName, addonTable, addon = ...
+local addonName, addonTable = ...;
+
+-- Get locals namse
+local L = addonTable.locales;
+local Expansion = L["SHADOWLANDS"]
 
 -- Create addon table
 local db = {}
 
 db.name = "Bears Enchanting"
-db.desc = "Enchanting reagents for shadowlands"
+db.desc = "Enchanting reagents for " .. Expansion
 
 -- Filter info
 db.Filters = {
     ["Enchanting"] = {
         uiName = "Bears Enchanting",
-        uiDesc = "Enchanting reagents for Bears",
+        uiDesc = db.desc,
         title = "Enchanting",
         items = {
             -- ID,	--Item name
@@ -28,7 +32,7 @@ db.Filters = {
     },
     ["Vendor_Reagents"] = {
         uiName = "Bears Enchanting Reagents",
-        uiDesc = "Enchanting reagents from vendors used in Bears",
+        uiDesc = "Enchanting reagents from vendors used in " .. Expansion,
         title = "Enchanting Reagents",
         items = {
             -- ID    = true,    --Item name
@@ -38,7 +42,7 @@ db.Filters = {
     },
     ["Crafted_Reagents"] = {
         uiName = "Bears crafted reagents",
-        uiDesc = "Reagents made by crafting in Bears",
+        uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
             -- ID    = true,    --Item name
