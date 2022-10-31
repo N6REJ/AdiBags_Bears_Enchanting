@@ -18,7 +18,7 @@ db.desc = "Enchanting reagents for " .. Expansion
 -- Filter info
 db.Filters = {
     ["Enchanting"] = {
-        uiName = "Bears Enchanting",
+        uiName = Expansion .. " Enchanting",
         uiDesc = db.desc,
         title = "Enchanting",
         items = {
@@ -32,7 +32,7 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Bears Enchanting Reagents",
+        uiName = Expansion .. " Enchanting Reagents",
         uiDesc = "Enchanting reagents from vendors used in " .. Expansion,
         title = "Enchanting Reagents",
         items = {
@@ -42,7 +42,7 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = "Bears crafted reagents",
+        uiName = Expansion .. "crafted reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
