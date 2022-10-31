@@ -5,7 +5,7 @@
 ---
 local addonName, addonTable = ...;
 
--- Get locals namse
+-- Get locals names
 local L = addonTable.locales;
 local Expansion = L["Shadowlands"]
 
