@@ -1,18 +1,18 @@
--- AdiBags_Bears Enchanting - Database
+-- AdiBags Bears Enchanting - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
 ---
 local addonName, addonTable = ...;
 
--- Get locals names
+-- Get locales name
 local L = addonTable.locales;
 local Expansion = L["Shadowlands"]
 
 -- Create addon table
 local db = {}
 
-db.name = "Bears Enchanting"
+db.name = Expansion .. " Enchanting"
 db.desc = "Enchanting reagents for " .. Expansion
 
 -- Filter info
