@@ -1,5 +1,5 @@
 ## Interface: 100000
-## Title: AdiBags-Bears Enchanting
+## Title: AdiBags Bears Enchanting
 ## Version: @project-version@
 ## Author: Bearesquishy
 ## X-License: MIT
