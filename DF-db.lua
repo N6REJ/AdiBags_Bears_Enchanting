@@ -42,16 +42,6 @@ db.Filters = {
 			[193934] = true, -- Infurious Wildercloth Bolt 3
 		}
 	},
-	["Herb"] = {
-		uiName = Expansion .. " Herbs",
-		uiDesc = "Herbs found in " .. Expansion,
-		title = "Herbs",
-		items = {-- ID,	--Item name
-			[191460] = true, -- Hochenblume 1
-			[191461] = true, -- Hochenblume 2
-			[191462] = true, -- Hochenblume 3
-		}
-	},
 --]]
 	["Enchanting"] = {
 		uiName = Expansion .. " Enchanting",
@@ -61,6 +51,27 @@ db.Filters = {
 			[194123] = true, -- Chromatic Dust
 			[194124] = true, -- Vibrant Shard
 			[201401] = true, -- Iridescent Plume
+			[201584] = true, -- Serevite Rod
+			[200113] = true, -- Resonant Crystal
+		}
+	},
+	["Elemental"] = {
+		uiName = Expansion .. " Elemental",
+		uiDesc = "Elemental reagents found in " .. Expansion,
+		title = "Elemental",
+		items = {
+			-- ID  = true,		--Item name
+			[190326] = true, -- Rousing Air
+			[190315] = true, -- Rousing Earth
+			[190320] = true, -- Rousing Fire
+			[190451] = true, -- Rousing Ire
+			[190328] = true, -- Rousing Frost
+			[190322] = true, -- Rousing Order
+			[190321] = true, -- Awakened Fire
+			[190327] = true, -- Awakened Air
+			[190329] = true, -- Awakened Frost
+			[190316] = true, -- Awakened Fire
+			[190324] = true, -- Awakened Order
 		}
 	},
 	["Zone_Reagents"] = {
