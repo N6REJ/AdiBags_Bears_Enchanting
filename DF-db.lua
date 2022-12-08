@@ -51,8 +51,19 @@ db.Filters = {
 			[194123] = true, -- Chromatic Dust
 			[194124] = true, -- Vibrant Shard
 			[201401] = true, -- Iridescent Plume
-			[201584] = true, -- Serevite Rod
 			[200113] = true, -- Resonant Crystal
+		}
+	},
+	["Vendor_Reagents"] = {
+		uiName = Expansion .. " Vendor Reagents",
+		uiDesc = "Reagents from vendors used in " .. Expansion,
+		title = "Vendor",
+		items = {
+			-- ID  = true,		--Item name
+
+			-- Inscription
+			[194784] = true, -- Glittering Parchment
+			[38682]  = true, -- Enchanting Vellum
 		}
 	},
 	["Elemental"] = {
