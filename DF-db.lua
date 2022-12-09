@@ -13,13 +13,13 @@ local Expansion = E["Dragonflight"]
 local db = {}
 
 db.name = "Bears " .. Expansion .. " Enchanting"
-db.desc = "Items & Reagents found in " .. Expansion
+db.desc = "Enchanting Reagents found in " .. Expansion
 
 -- Filter info
 db.Filters = {
 	--[[
 		["Crafted_Reagents"] = {
-			uiName = Expansion .. " Crafted Reagents",
+			uiName = "Bears " .. Expansion .. " Crafted Reagents",
 			uiDesc = "Assorted crafted reagents used in " .. Expansion,
 			title = "Crafted",
 			items = {
@@ -29,8 +29,8 @@ db.Filters = {
 		},
 	--]]
 	["Enchanting"] = {
-		uiName = Expansion .. " Enchanting",
-		uiDesc = "Enchanting reagent found in " .. Expansion,
+		uiName = "Bears " .. Expansion .. " Enchanting",
+		uiDesc = "Enchanting reagents found in " .. Expansion,
 		title = "Enchanting",
 		items = {-- ID,	--Item name
 			[194123] = true, -- Chromatic Dust
@@ -40,7 +40,7 @@ db.Filters = {
 		}
 	},
 	["Tools"] = {
-		uiName = "Crafters tools",
+		uiName = Expansion .. " Crafters tools",
 		uiDesc = "Special tools to aid in crafting " .. Expansion,
 		title = "Tools",
 		items = {
