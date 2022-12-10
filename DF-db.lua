@@ -40,7 +40,7 @@ db.Filters = {
 		}
 	},
 	["Tools"] = {
-		uiName = Expansion .. " Crafters tools",
+		uiName = "Bears " .. Expansion .. " Crafters tools",
 		uiDesc = "Special tools to aid in crafting " .. Expansion,
 		title = "Tools",
 		items = {
