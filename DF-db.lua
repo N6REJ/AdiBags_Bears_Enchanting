@@ -39,6 +39,21 @@ db.Filters = {
 			[200113] = true, -- Resonant Crystal
 		}
 	},
+	["Disenchanting"] = {
+		uiName = "Bears " .. Expansion .. " Disenchanting",
+		uiDesc = "Special items to disenchant found in " .. Expansion,
+		title = "Disenchanting",
+		items = {-- ID,	--Item name
+			[200939] = true, -- Chromatic Pocketwatch
+			[200940] = true, -- Everflowing inkwell
+			[200941] = true, -- Seal of Order
+			[200947] = true, -- Carving of Awakening
+			[200942] = true, -- Vibrant Emulsion
+			[200943] = true, -- Whispering Band
+			[200945] = true, -- Valiant Hammer
+			[200946] = true, -- Thunderous Blade
+		}
+	},
 	["Tools"] = {
 		uiName = "Bears " .. Expansion .. " Crafters tools",
 		uiDesc = "Special tools to aid in crafting " .. Expansion,
