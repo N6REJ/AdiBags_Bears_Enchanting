@@ -68,6 +68,15 @@ db.Filters = {
 			[374543] = true, -- Resonant Focus
 			[390825] = true, -- Runed Khaz'gorite Rod
 		}
+	},
+	["Artisan"] = {
+		uiName = "Bears " .. Expansion .. " Artisan Enchanting items",
+		uiDesc = "Artisan items found in " .. Expansion,
+		title = "Artisan",
+		items = {
+			-- ID,	--Item name
+			[203401] = true, -- Dull Crystal
+		}
 	}
 }
 
