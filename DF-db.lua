@@ -52,6 +52,7 @@ db.Filters = {
 			[200943] = true, -- Whispering Band
 			[200945] = true, -- Valiant Hammer
 			[200946] = true, -- Thunderous Blade
+			[204990] = true, -- Lava-Drenched Shadow Crystal
 		}
 	},
 	["Tools"] = {
