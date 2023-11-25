@@ -78,6 +78,15 @@ db.Filters = {
 			-- ID,	--Item name
 			[203401] = true, -- Dull Crystal
 		}
+	},
+	["Optional_Reagents"] = {
+		uiName = "Bears " .. Expansion .. " Optional Reagents",
+		uiDesc = "Assorted Optional reagents used in " .. Expansion,
+		title = "Optional",
+		items = {
+			-- ID  = true,		--Item name
+			[208212] = true, -- Dreaming Essence
+		}
 	}
 }
 
